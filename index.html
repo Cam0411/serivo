@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiOn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    
+</head>
+<body>
+    <div id="header">
+       <div class="header-text">
+           <img src="logo.png">
+           <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Team </a></li>
+                <li><a href="">Pricing table</a></li>
+                <li><a href="">Help</a></li>
+                <li class="sub-li"> <a href=""> Login <i class="fas fa-user"> </i></a></li>   
+           </ul>
+           <div class="nav-menu">
+            <i class="menu fas fa-bars"></i>
+           </div>
+       </div>
+    </div>
+    <div id="slider">
+       <div class="slider-text">
+           <div class="slider-all"> 
+           <h1 class="heading-slider">Web Hosting Easy and Secure</h1>
+           <p class="about">Full control of what you use and pay for</p>
+           
+           <p class="box">Get in Touch</p>
+        </div>
+           <img src="hero-header.png">
+       </div>
+    </div>
+    <div id="content">
+      <div class="content-text"> 
+          <div class="sub-content-text"> 
+          <h1 class="heading-content">What will you get if you'll join us</h1>
+          <p class="about-2">Get the best web hosting service at the price you can afford</p>
+          <div class="content-all">
+              <div class="sub-content-all"> 
+              <h1 class="heading-content-all"> <i class="far fa-calendar-check"></i> WE GIVE A CARE</h1>
+              <p class="about-3"> Beside the support we provide you with various tools to be able to host and manage your websites </p>
+              <h1 class="heading-content-all"><i class="fab fa-microsoft"></i> TWEAK AS YOU WISH</h1>
+              <p class="about-3"> Beside the support we provide you with various tools to be able to host and manage your websites </p>
+              <h1 class="heading-content-all"><i class="fas fa-wifi"></i> SECURITY AT ITS BEST</h1>
+              <p class="about-3"> Beside the support we provide you with various tools to be able to host and manage your websites </p>
+              </div>
+              <img src="join-us.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content-2">
+        <div class="content-2-text">
+            <div class="content-2-all">
+                <h1 class="heading-content-2">Don't know where to start from?</h1>
+                <p class="about-4">We've got the best articles,tools and resources to help you to start</p>
+                <div class="content-all-box-2">
+                        <div class="content-2-box">
+                  
+                        <i class="fas fa-rocket"></i>
+                         <h1 class="heading-box">PLANING TO BUILD A WEBSITE</h1>
+                          <p class="about-5">You want to build a new website but not sure what to start with? We've prepared a step by step 
+                        guide for you to handle the whole process from design to launch</p>
+                      <div class="box-2">learn more  </div>
+                      <img src="clouds-1.png"alt="">
+                    </div>
+                    <div class="content-2-box sub-box">
+                    <i class="fas fa-rocket"></i>
+                    <h1 class="heading-box">PLANING TO BUILD A WEBSITE</h1>
+                    <p class="about-5">You want to build a new website but not sure what to start with? We've prepared a step by step 
+                        guide for you to handle the whole process from design to launch</p>
+                    <div class="box-2">learn more </div>
+                    <img src="logos.png"alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul id="nav-ipad">
+                <li><a href="">Home</a></li>
+                <li><a href="">Team </a></li>
+                <li><a href="">Pricing table</a></li>
+                <li><a href="">Help</a></li>
+                <li> <a href=""> Login <i class="fas fa-user"> </i></a></li>   
+           </ul>
+        </div>
+    </div>
+    <script>
+        const menus = document.querySelectorAll(".menu")
+        const modal = document.querySelector(".modal")
+        const modalClose = document.querySelector(".modal-close")
+        function showModal(){
+               modal.classList.add('open')
+        }
+        function hideModal(){
+               modal.classList.remove('open')
+        }
+        for (const menu of menus){
+            menu.addEventListener('click',showModal)
+        }
+        modalClose.addEventListener('click',hideModal)
+    </script>
+</body>
+</html>

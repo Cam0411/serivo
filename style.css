@@ -1,0 +1,297 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#header 
+{
+    height: 98px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#424d83 ;
+    z-index: 1;
+}
+#header img 
+{
+    padding: 30px;
+}
+.header-text 
+{
+    height: 97px;
+    position: relative;
+}
+#nav 
+{
+    padding: 15px;
+    position: absolute;
+    top: 3%;
+    right: 0;
+}
+#nav li
+{
+    display: inline-block;
+    padding: 20px;
+}
+#nav li a 
+{
+    color: #bdbdbd;
+    text-decoration: none;
+}
+.sub-li a
+{
+    border: 2px solid #fff;
+    background: #fff;
+    color: #424d83 !important;
+    padding: 5px;
+}
+.sub-li i 
+{
+    font-size: 12px;
+}
+.nav-menu 
+{
+    position: absolute;
+    top: 6%;
+    right: 0;
+    color: #fff;
+    padding: 25px;
+    font-size: 25px;
+    display: none;
+}
+.modal 
+{
+    background: #0004;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.modal-content 
+{
+    background: #fff;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    animation: mymove linear 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-close 
+{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 20px;
+    font-size: 25px;
+}
+.modal.open 
+{
+    display: flex;
+}
+#nav-ipad li a 
+{
+    text-decoration: none;
+    color: #424d83;
+}
+#nav-ipad li 
+{
+    padding: 20px;
+    font-size: 25px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#nav-ipad i 
+{
+    font-size: 20px;
+}
+#slider 
+{
+    height:600px;
+    margin-top: 96px;
+    background: #424d83;
+}
+.slider-text 
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+#slider img 
+{
+    width: 538px;
+    padding: 20px;
+}
+.heading-slider
+{
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 28px;
+}
+.about 
+{
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.box 
+{
+    padding: 10px;
+    background: #a1b0fc;
+    width: 32%;
+    color: #fff;
+    margin-left: 10px;
+}
+#content
+{
+    height: 900px;
+}
+.content-text{
+   height: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#content img 
+{
+    width: 708px;
+    padding: 20px;
+}
+.content-all 
+{
+    display: flex;
+}
+.sub-content-all 
+{
+    display: block;
+}
+.heading-content 
+{
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+.about-2 
+{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #bdbdbd;
+}
+.heading-content-all
+{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.heading-content-all i 
+{
+    padding: 10px;
+    color: #a1b0fc;
+}
+.about-3 
+{
+    padding: 15px;
+    line-height: 28px;
+    color: #bdbdbd;
+}
+#content-2 
+{
+    height: 1100px;
+    background: #f1f3ff;
+}
+.content-2-text{
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content-all-box-2
+{
+    display: flex;
+    padding: 20px;
+}
+.heading-content-2 
+{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.about-4 
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content-2-box
+{
+    position: relative;
+    width: 50%;
+    height:401px ;
+    background: #a1b0fc;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.content-2-box img
+{
+    width: 175px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.sub-box 
+{
+    background: #424d83;
+}
+.content-2-box i 
+{
+    margin-top: 90px;
+    padding: 15px;
+    font-size: 30px;
+    background: #424d83;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.sub-box i 
+{
+    background: #a1b0fc;
+}
+.heading-box 
+{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.about-5 
+{
+    color: #fff;
+    line-height: 35px;
+    font-size: 13px;
+}
+.box-2 
+{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    padding: 10px;
+    color: #000;
+    background: #fff;
+}
+@keyframes mymove {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(0%);
+    }
+}

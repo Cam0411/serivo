@@ -1,0 +1,183 @@
+@media (max-width:650px){
+    #nav
+    {
+        display: none;
+    }
+    .nav-menu 
+    {
+        display: block;
+    }
+    .modal-content  
+    {
+        width: 100%;
+    }
+    .slider-text 
+    {
+        flex-direction: column-reverse;
+    }
+    #slider img 
+{
+    width: 258px;
+    padding: 20px;
+}
+.heading-slider
+{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.about 
+{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.box 
+{
+    padding: 7px;
+    background: #a1b0fc;
+    width: 45%;
+    color: #fff;
+}
+#content
+    {
+    height: 1500px;
+    }
+.content-text{
+   height: 1400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+    .content-all 
+    {
+        flex-direction: column-reverse;
+    }
+    #content img 
+{
+    width: 280px;
+}
+.heading-content-all
+{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.heading-content-all i 
+{
+    padding: 10px;
+    color: #a1b0fc;
+}
+.about-3 
+{
+    padding: 15px;
+    line-height: 28px;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+.heading-content
+{
+    padding: 20px;
+    font-size: 25px;
+}
+.about-2 
+{
+    padding: 20px;
+}
+.content-2-text
+{
+    flex-direction: column;
+}
+.content-all-box-2
+{
+    flex-direction: column;
+}
+.content-2-box
+{
+    width: 91%;
+    margin-top: 20px;
+    height: 541px;
+    padding: 20px;
+}
+#content-2 
+{
+    height: 1450px;
+    background: #f1f3ff;
+}
+.content-2-text{
+    height: 1350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heading-content-2 
+{
+   text-align: center;
+   margin-bottom: 20px;
+   padding: 20px;
+   font-size: 16px;
+}
+.about-4 
+{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 12px;
+}
+}
+@media (min-width:651px) and (max-width:1000px){
+    #nav
+    {
+        display: none;
+    }
+    .nav-menu 
+    {
+        display: block;
+    }
+    .slider-text 
+    {
+        flex-direction: column-reverse;
+    }
+    #content
+    {
+    height: 1500px;
+    }
+.content-text{
+   height: 1400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+    .content-all 
+    {
+        flex-direction: column-reverse;
+    }
+    #content img 
+{
+    width: 608px;
+}
+.content-2-text
+{
+    flex-direction: column;
+}
+.content-all-box-2
+{
+    flex-direction: column;
+}
+.content-2-box
+{
+    width: 90%;
+    margin-top: 20px;
+}
+#content-2 
+{
+    height: 1400px;
+    background: #f1f3ff;
+}
+.content-2-text{
+    height: 1300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+}
